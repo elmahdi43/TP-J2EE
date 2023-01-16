@@ -26,7 +26,7 @@ public class SimplePIBServlet extends HttpServlet
     private String selected;
 
     public void init() {
-        message = "Salut, voici le PID de votre pays: ";
+        message = "Salut, voici le PID de votre pays (milliards d'euros): ";
         paysPID = Map.of("France", 29000, "Allemagne", 30000, "Belgique", 28000, "Espagne", 28000, "Italie", 28000);
         selected = "Sélectionnez un pays!!";
     }

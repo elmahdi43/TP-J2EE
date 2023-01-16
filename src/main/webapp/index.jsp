@@ -5,7 +5,6 @@
     <title>JSP - Hello World</title>
 </head>
 <body >
-
     <h1><%= "TP-Servlet" %>
     </h1>
     <h3><%= "Authors: El Mahdi and Wassim" %>
@@ -14,7 +13,5 @@
     <a href="SimplePid">PIB</a>
     <br>
     <a href="GraphicPid">PID Graphic</a>
-
-
 </body>
 </html>
